@@ -1,0 +1,109 @@
+#main{
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+   
+}
+body{
+    background-color: #171616;
+    color: #ddd;
+}
+#heading{
+    display: flex;
+
+    justify-content: center;
+    
+}
+#heading #money{
+ 
+    margin-right: 10px;
+    color: green;
+    
+}
+
+h1,h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.input-section{
+
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    
+   
+}
+.input-section select ,input {
+    background-color: #cac6c6;
+}
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+#add-btn{
+    margin-right: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 50px;
+    background-color: rgb(24, 62, 24);
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+.input-section input,select{
+    cursor: pointer;
+   font-weight: bold;
+   font-size: 14px;
+   border-radius: 15px;
+   text-align: center;
+   border: none;
+}
+
+.input-section input[type="number"],.input-selection input[type="date"]{
+    padding: 10px;
+    
+}
+
+.expense-list{
+    position: relative;
+    margin: 20px;
+}
+
+table{
+    
+    position:relative;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1280px;
+    max-width: 100%;
+    border-collapse: collapse;
+
+}
+th,td{
+
+    border: 1px solid  #dddddd1f;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: rgb(24, 62, 24);
+}
+tfoot td{
+    font-weight:bold;
+}
+.delete-btn{
+    margin-right: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
